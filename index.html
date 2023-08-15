@@ -13,12 +13,12 @@
             <div>
                 <form id="survey-form">
                     <fieldset>
-                        <label id="name-label" for="name">Name<input name="name" type="text" id="name" placeholder="Enter your name" required /></label>
-                        <label id="email-label" for="email">Email<input name="email" type="email" id="email" placeholder="Enter your email" required /></label>
-                        <label id="number-label" for="number">Age<input id="age" name="age" type="number" min="16" max="100" placeholder="Age" required /></label>
+                        <label id="name-label" for="name">Name<input class="info" name="name" type="text" id="name" placeholder="Enter your name" required /></label>
+                        <label id="email-label" for="email">Email<input class="info" name="email" type="email" id="email" placeholder="Enter your email" required /></label>
+                        <label id="number-label" for="number">Age<input class="info" id="age" name="age" type="number" min="16" max="100" placeholder="Age" required /></label>
                         <label id="dropdown-label" for="dropdown">
                             What is your current class standing?
-                            <select id="dropdown">
+                            <select class="info" id="dropdown">
                                 <option value="">Select an option</option>
                                 <option value="1">Freshman</option>
                                 <option value="2">Sophomore</option>
@@ -28,16 +28,24 @@
                         </label>
                     </fieldset>
                     <fieldset>
-
+                        <p>Would yous use our tutoring services in the future for higher level courses?</p>
+                        <input type="radio" name="recommend" id="definitely">Definitely
+                        <input type="radio" name="recommend" id="maybe">Maybe
+                        <input type="radio" name="recommend" id="no">No    
+                        <p>Which mathematical concepts do you feel have improved? (Check all that apply)</p>
+                        <input type="checkbox" name="algebra" value="algebra" id="algebra">Algebra
+                        <input type="checkbox" name="trigonometry" value="trigonometry" id="trigonometry">Trigonometry
+                        <input type="checkbox" name="geometry" value="geometry" id="geometry">Geometry
+                        <input type="checkbox" name="pre-calculus" value="pre-calculus" id="pre-calculus">Pre-Calculus
                     </fieldset>
                     <fieldset>
-
+                        <p>Any comments or suggestions?</p>
+                        <textarea rows="8" cols="30" placeholder="Enter comment here..."></textarea>
                     </fieldset>
+                    <input type="submit" value="submit" name="Submit" />
                 </form>
             </div>
         </main>
-
-
 
     </body>
 </html>
