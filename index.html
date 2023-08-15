@@ -15,7 +15,7 @@
                     <fieldset>
                         <label id="name-label" for="name">Name<input class="info" name="name" type="text" id="name" placeholder="Enter your name" required /></label>
                         <label id="email-label" for="email">Email<input class="info" name="email" type="email" id="email" placeholder="Enter your email" required /></label>
-                        <label id="number-label" for="number">Age<input class="info" id="age" name="age" type="number" min="16" max="100" placeholder="Age" required /></label>
+                        <label id="number-label" for="number">Age<input class="info" id="number" name="age" type="number" min="16" max="100" placeholder="Age" required /></label>
                         <label id="dropdown-label" for="dropdown">
                             What is your current class standing?
                             <select class="info" id="dropdown">
@@ -29,13 +29,13 @@
                     </fieldset>
                     <fieldset>
                         <p>Would you use our tutoring services in the future for higher level courses?</p>
-                            <input type="radio" name="recommend" id="definitely">
+                            <input value="definitely" type="radio" name="recommend" id="definitely">
                             <label class="definitely" for="definitely">Definitely |</label>
                     
-                            <input type="radio" name="recommend" id="maybe">
+                            <input value="maybe" type="radio" name="recommend" id="maybe">
                             <label class="maybe" for="maybe">Maybe |</label>
                         
-                            <input type="radio" name="recommend" id="no">
+                            <input value="no" type="radio" name="recommend" id="no">
                             <label class="no" for="no">No |</label> 
                       
                         <p>Which mathematical concepts do you feel have improved? (Check all that apply)</p>
@@ -48,7 +48,7 @@
                         <p>Any comments or suggestions?</p>
                         <textarea rows="8" cols="70" placeholder="Enter comment here..."></textarea>
                     </fieldset>
-                    <input type="submit" value="submit" name="Submit" />
+                    <input type="submit" value="submit" id="submit" name="Submit" />
                 </form>
             </div>
         </main>

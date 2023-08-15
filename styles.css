@@ -35,7 +35,9 @@ fieldset {
 }
 
 input[name="submit"] {
-    display: block;
+    padding: 5px 15px;
+    border: 0 none;
+    color: blue;
 
 }
 
