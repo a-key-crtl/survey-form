@@ -2,6 +2,7 @@ body {
     background-image: url("https://wallpapercave.com/wp/8iAP1eI.jpg");
     font-family: Arial, Times;
     color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 
@@ -11,11 +12,13 @@ h1 {
 
 #description {
     text-align: center;
+    color: blue;
 }
 
 div {
     margin: auto;
     width: 70%;
+
 }
 
 label {
@@ -33,5 +36,9 @@ fieldset {
 
 input[name="submit"] {
     display: block;
-    
+
+}
+
+.maybe, .no, .definitely {
+    display: inline;
 }

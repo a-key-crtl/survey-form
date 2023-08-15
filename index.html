@@ -9,7 +9,7 @@
     <body>
         <main>
             <h1 id="title">Math Tutor Survey Form</h1>
-            <p id="description">Thank you for taking the time to help our tutors improve</p>
+            <p id="description">Thank you for taking the time to offer feedback on our services</p>
             <div>
                 <form id="survey-form">
                     <fieldset>
@@ -28,19 +28,25 @@
                         </label>
                     </fieldset>
                     <fieldset>
-                        <p>Would yous use our tutoring services in the future for higher level courses?</p>
-                        <input type="radio" name="recommend" id="definitely">Definitely
-                        <input type="radio" name="recommend" id="maybe">Maybe
-                        <input type="radio" name="recommend" id="no">No    
+                        <p>Would you use our tutoring services in the future for higher level courses?</p>
+                            <input type="radio" name="recommend" id="definitely">
+                            <label class="definitely" for="definitely">Definitely |</label>
+                    
+                            <input type="radio" name="recommend" id="maybe">
+                            <label class="maybe" for="maybe">Maybe |</label>
+                        
+                            <input type="radio" name="recommend" id="no">
+                            <label class="no" for="no">No |</label> 
+                      
                         <p>Which mathematical concepts do you feel have improved? (Check all that apply)</p>
-                        <input type="checkbox" name="algebra" value="algebra" id="algebra">Algebra
-                        <input type="checkbox" name="trigonometry" value="trigonometry" id="trigonometry">Trigonometry
-                        <input type="checkbox" name="geometry" value="geometry" id="geometry">Geometry
-                        <input type="checkbox" name="pre-calculus" value="pre-calculus" id="pre-calculus">Pre-Calculus
+                        <input type="checkbox" name="algebra" value="algebra" id="algebra">Algebra |
+                        <input type="checkbox" name="trigonometry" value="trigonometry" id="trigonometry">Trigonometry |
+                        <input type="checkbox" name="geometry" value="geometry" id="geometry">Geometry |
+                        <input type="checkbox" name="pre-calculus" value="pre-calculus" id="pre-calculus">Pre-Calculus |
                     </fieldset>
                     <fieldset>
                         <p>Any comments or suggestions?</p>
-                        <textarea rows="8" cols="30" placeholder="Enter comment here..."></textarea>
+                        <textarea rows="8" cols="70" placeholder="Enter comment here..."></textarea>
                     </fieldset>
                     <input type="submit" value="submit" name="Submit" />
                 </form>
